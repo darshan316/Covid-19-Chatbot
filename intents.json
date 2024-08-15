@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "tag": "info",
+      "patterns": [
+        "what is corona virus?",
+        "What is Covid19?"
+      ],
+      "responses": [
+        "Coronavirus disease (COVID19) is an infectious disease caused by a newly discovered coronavirus. Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. Covid19 is a type of corona virus"
+      ]
+    },
+    {
+      "tag": "vaccine",
+      "patterns": [
+        "what are the vaccines available?",
+        "what are the options for vaccines?"
+      ],
+      "responses": [
+        "Covaxin, Covishield"
+      ]
+    },
+    {
+      "tag": "vaccine slot",
+      "patterns":[
+        "how to book vaccine slot?",
+        "vaccinate booking website"
+      ],
+      "responses":[
+        "cowin.org"
+      ]
+    },
+    {
+      "tag":"safety",
+      "patterns":["is vaccine safe"],
+      "responses":["yes, completely safe"]
+    },
+    {
+      "tag":"cases",
+      "patterns":[
+        "no of cases?"
+      ],
+      "responses":[
+        "covid19india.org.in"
+      ]
+
+    }
+  
+  ]
+}
